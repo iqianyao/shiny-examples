@@ -1,7 +1,7 @@
 basicPage(
-  h2('Immediate output here'),
+  h2('立即输出'),
   verbatimTextOutput('fast'),
-  h2('Delayed output comes after the page is ready'),
+  h2('页面加载完成后延迟输出'),
   verbatimTextOutput('slow'),
   plotOutput('slow_plot')
 )

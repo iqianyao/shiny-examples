@@ -3,7 +3,7 @@ fluidPage(
   sidebarLayout(
     sidebarPanel(
       withMathJax(),  # include the MathJax library
-      selectInput('x', 'Build a regression model of mpg against:',
+      selectInput('x', '建立MPG的回归模型:',
                   choices = names(mtcars)[-1])
     ),
     mainPanel(

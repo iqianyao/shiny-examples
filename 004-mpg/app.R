@@ -13,7 +13,7 @@ mpgData$am <- factor(mpgData$am, labels = c("Automatic", "Manual"))
 ui <- fluidPage(
 
   # App title ----
-  titlePanel("Miles Per Gallon"),
+  titlePanel("箱形图"),
 
   # Sidebar layout with input and output definitions ----
   sidebarLayout(
