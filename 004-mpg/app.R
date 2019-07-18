@@ -22,7 +22,7 @@ ui <- fluidPage(
     sidebarPanel(
 
       # Input: Selector for variable to plot against mpg ----
-      selectInput("variable", "Variable:",
+      selectInput("variable", "变量:",
                   c("Cylinders" = "cyl",
                     "Transmission" = "am",
                     "Gears" = "gear")),
