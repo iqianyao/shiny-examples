@@ -28,7 +28,7 @@ ui <- fluidPage(
                     "Gears" = "gear")),
 
       # Input: Checkbox for whether outliers should be included ----
-      checkboxInput("outliers", "Show outliers", TRUE)
+      checkboxInput("outliers", "显示异常值", TRUE)
 
     ),
 
